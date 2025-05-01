@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@twurple/api':
-        specifier: ~7.2.0
-        version: 7.2.0(@twurple/auth@7.2.0)
+        specifier: ~7.3.0
+        version: 7.3.0(@twurple/auth@7.3.0)
       '@twurple/auth':
-        specifier: ~7.2.0
-        version: 7.2.0
+        specifier: ~7.3.0
+        version: 7.3.0
       '@zeepkist/graphql':
         specifier: ~1.26.0
         version: 1.26.0
@@ -151,8 +151,8 @@ packages:
     resolution: {integrity: sha512-yAu3xDooiL+ef84Jo8nLjDjWBRk7RXk163Y6aTvRB7FauYd3spQD/dWvgT7R4CrN54Juhrrc3dMY7mc+jZGurQ==}
     engines: {node: '>=0.6'}
 
-  '@d-fischer/rate-limiter@1.0.1':
-    resolution: {integrity: sha512-Mq+0pAJsx92hP83cjmsrXQZVQJ+/+u1JFT6fjH8pj3yfUrbT3eDBsA+6J63eat+QaC+Mci78HdiBfpsdBkdwog==}
+  '@d-fischer/rate-limiter@1.1.0':
+    resolution: {integrity: sha512-O5HgACwApyCZhp4JTEBEtbv/W3eAwEkrARFvgWnEsDmXgCMWjIHwohWoHre5BW6IYXFSHBGsuZB/EvNL3942kQ==}
 
   '@d-fischer/shared-utils@3.6.3':
     resolution: {integrity: sha512-Lz+Qk1WJLVoeREOHPZcIDTHOoxecxMSG2sq+x1xWYCH1exqiMKMMx06pXdy15UzHG7ohvQRNXk2oHqZ9EOl9jQ==}
@@ -555,19 +555,19 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@twurple/api-call@7.2.0':
-    resolution: {integrity: sha512-xMIaNdFpJNzwm961USGIzhaT6i+ZNr+gkDImvkWexGztyeB7icIXaT8U2I0gm3b4QvK9eT9megY9N/Xbn9lumQ==}
+  '@twurple/api-call@7.3.0':
+    resolution: {integrity: sha512-nx389kXjVphAeR3RfnzkRRf7Qa45wqHla067/mr3YxnUICCg4YOFv0Jb5UohQGHkj5h18mDZ3iUu/x2J49c1lA==}
 
-  '@twurple/api@7.2.0':
-    resolution: {integrity: sha512-nUIZkZ2szty/NDebEd6ggNks5s0+mVyKM+d8VSFEi2v/qpT5fu34fYtm5aAIvSJ5WglaP7l+dmGvHrcafDxNoA==}
+  '@twurple/api@7.3.0':
+    resolution: {integrity: sha512-QtaVgYi50E3AB/Nxivjou/u6w1cuQ6g4R8lzQawYDaQNtlP2Ue8vvYuSp2PfxSpe8vNiKhgV8hZAs+j4V29sxQ==}
     peerDependencies:
-      '@twurple/auth': 7.2.0
+      '@twurple/auth': 7.3.0
 
-  '@twurple/auth@7.2.0':
-    resolution: {integrity: sha512-rcqoU3TtLm7UICEcefg+NIaSi7ry7nBlIuUQEzDC09A/mfy/R5D6u8uqt+V2ybZChu1Pue2wRGycOTFseHYE5g==}
+  '@twurple/auth@7.3.0':
+    resolution: {integrity: sha512-K68nFbQswfaEVCWP2MEPcxhHRR/N8kIHBP6AnRXzgSpmvWxhjOitz9oyP04di5DI1rJE+2NRauv1qFDyYia/qg==}
 
-  '@twurple/common@7.2.0':
-    resolution: {integrity: sha512-bfUWDDxvpzWztEQnMWa2ivwSncnz0UE5ToWUnsCDNlujTPJvrFTm4eU9FCYgSwCQ8o+9LCiuA4pNF20HhKzhOw==}
+  '@twurple/common@7.3.0':
+    resolution: {integrity: sha512-BGNniY7PBIohxfpRQ1bsOxUaktZcXZOExq8ojCtnsNBVDlchNEX2fYsere03ZwTLd48XBtxsdaUaeQXbx1aXLw==}
 
   '@types/istanbul-lib-coverage@2.0.6':
     resolution: {integrity: sha512-2QF/t/auWm0lsy8XtKVPG19v3sSOQlJe/YHZgfjb/KBBHOGSV+J2q/S671rcq9uTBrLAXmZpqJiaQbMT+zNU1w==}
@@ -3243,7 +3243,7 @@ snapshots:
 
   '@d-fischer/qs@7.0.2': {}
 
-  '@d-fischer/rate-limiter@1.0.1':
+  '@d-fischer/rate-limiter@1.1.0':
     dependencies:
       '@d-fischer/logger': 4.2.3
       '@d-fischer/shared-utils': 3.6.3
@@ -3654,45 +3654,45 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@twurple/api-call@7.2.0':
+  '@twurple/api-call@7.3.0':
     dependencies:
       '@d-fischer/cross-fetch': 5.0.5
       '@d-fischer/qs': 7.0.2
       '@d-fischer/shared-utils': 3.6.3
-      '@twurple/common': 7.2.0
+      '@twurple/common': 7.3.0
       tslib: 2.7.0
     transitivePeerDependencies:
       - encoding
 
-  '@twurple/api@7.2.0(@twurple/auth@7.2.0)':
+  '@twurple/api@7.3.0(@twurple/auth@7.3.0)':
     dependencies:
       '@d-fischer/cache-decorators': 4.0.1
       '@d-fischer/cross-fetch': 5.0.5
       '@d-fischer/detect-node': 3.0.1
       '@d-fischer/logger': 4.2.3
-      '@d-fischer/rate-limiter': 1.0.1
+      '@d-fischer/rate-limiter': 1.1.0
       '@d-fischer/shared-utils': 3.6.3
       '@d-fischer/typed-event-emitter': 3.3.3
-      '@twurple/api-call': 7.2.0
-      '@twurple/auth': 7.2.0
-      '@twurple/common': 7.2.0
+      '@twurple/api-call': 7.3.0
+      '@twurple/auth': 7.3.0
+      '@twurple/common': 7.3.0
       retry: 0.13.1
       tslib: 2.7.0
     transitivePeerDependencies:
       - encoding
 
-  '@twurple/auth@7.2.0':
+  '@twurple/auth@7.3.0':
     dependencies:
       '@d-fischer/logger': 4.2.3
       '@d-fischer/shared-utils': 3.6.3
       '@d-fischer/typed-event-emitter': 3.3.3
-      '@twurple/api-call': 7.2.0
-      '@twurple/common': 7.2.0
+      '@twurple/api-call': 7.3.0
+      '@twurple/common': 7.3.0
       tslib: 2.7.0
     transitivePeerDependencies:
       - encoding
 
-  '@twurple/common@7.2.0':
+  '@twurple/common@7.3.0':
     dependencies:
       '@d-fischer/shared-utils': 3.6.3
       klona: 2.0.6
