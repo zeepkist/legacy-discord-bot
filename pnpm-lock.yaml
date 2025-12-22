@@ -28,13 +28,13 @@ importers:
         version: 17.2.3
       knex:
         specifier: ~3.1.0
-        version: 3.1.0(mysql2@3.15.0)
+        version: 3.1.0(mysql2@3.16.0)
       ky:
         specifier: ~1.14.0
         version: 1.14.0
       mysql2:
-        specifier: ~3.15.0
-        version: 3.15.0
+        specifier: ~3.16.0
+        version: 3.16.0
       winston:
         specifier: ~3.19.0
         version: 3.19.0
@@ -2464,8 +2464,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  mysql2@3.15.0:
-    resolution: {integrity: sha512-tT6pomf5Z/I7Jzxu8sScgrYBMK9bUFWd7Kbo6Fs1L0M13OOIJ/ZobGKS3Z7tQ8Re4lj+LnLXIQVZZxa3fhYKzA==}
+  mysql2@3.16.0:
+    resolution: {integrity: sha512-AEGW7QLLSuSnjCS4pk3EIqOmogegmze9h8EyrndavUQnIUcfkVal/sK7QznE+a3bc6rzPbAiui9Jcb+96tPwYA==}
     engines: {node: '>= 8.0'}
 
   mz@2.7.0:
@@ -6098,7 +6098,7 @@ snapshots:
 
   klona@2.0.6: {}
 
-  knex@3.1.0(mysql2@3.15.0):
+  knex@3.1.0(mysql2@3.16.0):
     dependencies:
       colorette: 2.0.19
       commander: 10.0.1
@@ -6115,7 +6115,7 @@ snapshots:
       tarn: 3.0.2
       tildify: 2.0.0
     optionalDependencies:
-      mysql2: 3.15.0
+      mysql2: 3.16.0
     transitivePeerDependencies:
       - supports-color
 
@@ -6269,7 +6269,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  mysql2@3.15.0:
+  mysql2@3.16.0:
     dependencies:
       aws-ssl-profiles: 1.1.2
       denque: 2.1.0
