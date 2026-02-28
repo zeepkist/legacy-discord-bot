@@ -21,7 +21,7 @@
     "dotenv": "~17.3.0",
     "knex": "~3.1.0",
     "ky": "~1.14.0",
-    "mysql2": "~3.17.0",
+    "mysql2": "~3.18.0",
     "winston": "~3.19.0",
     "winston-daily-rotate-file": "~5.0.0"
   },
